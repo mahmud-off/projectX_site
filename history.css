@@ -1,0 +1,66 @@
+html {
+    display: inline-block;
+}
+body {   
+	background-image: url(images/IMG_1809.jpg) ;
+	background-position: center center;      
+	background-repeat: no-repeat;      
+	background-attachment: fixed;
+}
+header{
+	font-size: 50px;
+	display: inline-block;
+  	transform: translate(8em);
+  	font-weight: 800 ;
+  	z-index: 2;
+  	font-family: Impact;
+}
+#Walli_1{
+	width: 200px;
+	z-index: 1;
+	transform: translate(0px,20px);
+}
+
+#glav{
+	transform: translate(-45em, -1em);
+	position: fixed;
+}
+
+#lol{
+	transform: translate(0px, -120px);
+	font-size: 20px;
+	position: fixed;
+}
+
+span {
+  display: inline-block;
+  transform: translate(0em, 7em);
+  font-weight: 500 ;
+  text-align: left;
+  border: solid;
+  font-size: 20px;
+  background-image: url(images123.png);
+  color: white;
+  border-color: black ;
+  position: fixed;  
+  top: 0;  
+  z-index: 100;   
+ }
+
+ h1{
+	font-weight: 700;
+	color:black;
+	font-size: 40px;
+}
+
+h1:hover{
+	color:white;
+}
+#i{
+	display: inline-block;
+  transform: translate(18em, 10px);
+	font-size: 25px;
+	word-wrap: break-word;
+  width: 800px;
+  font-weight: 500;
+}

@@ -1,0 +1,118 @@
+html {
+    display: inline-block;
+}
+body {   
+	background-image: url(images/IMG_1809.jpg) ;
+	background-position: center center;      
+	background-repeat: no-repeat;      
+	background-attachment: fixed;
+}
+header{
+	font-size: 50px;
+	display: inline-block;
+  	transform: translate(9em);
+  	font-weight: 800 ;
+  	z-index: 2;
+  	font-family: Impact;
+}
+header:hover{
+	color:white;
+}
+
+#Walli_1{
+	width: 200px;
+	z-index: 1;
+	transform: translate(-25px,23px);
+}
+
+#Walli_2{
+	width: 170px;
+	z-index: 1;
+	transform: translate(-942px, 25px);
+}
+
+span {
+  display: inline-block;
+  transform: translate(0em, 7em);
+  font-weight: 500 ;
+  text-align: left;
+  border: solid;
+  background-color: white;
+  font-size: 20px;
+  color: white;
+  border-color: black ;
+  position: fixed;  
+	top: 0;  
+	z-index: 100;
+	padding: 10px;   
+	width: 300px;
+	border-color: grey;
+	height: 580px;
+ }
+h1{
+	font-weight: 700;
+	color:black;
+}
+h1:hover{
+	color:red;
+}
+#i{
+	display: inline-block;
+  transform: translate(17em, 8px);
+  width: 800px;
+  font-size: 20px;
+  background-color: white;
+  border: solid;
+  border-color: grey;
+  padding-left: 10px;
+  padding-bottom: 25px;
+  padding-right: 10px;
+}
+
+#glav{
+	transform: translate(-56em, -1em);
+	position: fixed;
+}
+
+#lol{
+	transform: translate(0px, -120px);
+	font-size: 20px;
+	position: fixed;
+}
+
+#lol:hover{
+	font-weight: 700;
+}
+
+h2{
+	font-weight: 600;
+	color:black;
+	font-size: 25px;
+}
+
+li{
+	color: black;
+}
+
+#m{
+	border-bottom: solid;
+	border-color: grey;
+}
+
+#start{
+	width: 600px;
+	border: solid;
+	border-color: grey;
+	margin-top: 25px;
+	margin-left: 90px;
+}
+
+#fact{
+	border: solid;
+	border-color: grey;
+	background-color: white;
+	padding: 5px;
+	font-size: 17px;
+	color: black;
+	height: 240px;
+}
